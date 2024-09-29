@@ -1,5 +1,5 @@
 {
-  "name": "screen-color-depth-proxy",
+  "name": "@earlold/color-depth-proxy",
   "version": "1.0.0",
   "description": "Proxy for Screen.colorDepth property",
   "main": "index.js",
