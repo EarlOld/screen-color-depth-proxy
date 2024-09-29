@@ -1,4 +1,4 @@
-### Proxy for Screen.colorDepth in 3D Secure v2
+## Proxy for Screen.colorDepth in 3D Secure v2
 
 
 ### Description
@@ -7,9 +7,15 @@ The problem is that while the CSSOM specification says that Screen.colorDepth is
 
 The 3D Secure specification is not clear on what should happen if the value is not one of the allowed values. It is possible that the value is ignored, or that the transaction is rejected. It is also possible that the value is rounded to the nearest allowed value, in which case 30 would be rounded to 32.
 
+### Installation
+
+```bash
+npm i @earlold/color-depth-proxy
+```
+
 ### Usage
 
-Just import the `screen-color-depth-proxy.js` file in your project and use the `screen.colorDepth` property as usual.
+Just import the `import "@earlold/color-depth-proxy"` file in your project and use the `screen.colorDepth` property as usual.
 
 ### Article 
 
